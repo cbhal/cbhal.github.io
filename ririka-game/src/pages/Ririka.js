@@ -114,7 +114,7 @@ const Ririka = () => {
 
   return (
     <>
-      <Step init={start} ifNo={handleNo1} ifYes={handleYes1}>I like Vtuber</Step>
+      <Step init={start} ifNo={handleNo1} ifYes={handleYes1}>I like Vtubers</Step>
       <Step init={step2} ifNo={handleNo2} ifYes={handleYes2}>I want healing in my life</Step>
       <Step init={step3} ifNo={handleNo3} ifYes={handleYes3}>I despair the reality</Step>
       <Step init={last1}>
