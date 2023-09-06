@@ -11,9 +11,8 @@ const Step = ({ children, ifYes, ifNo, init }) => {
         setVisibility(false);
     }
     if (!ifNo || !ifYes) {
-        console.log("nay")
       setFinal(true);
-    } else{console.log("yay")}
+    }
   }, [init]);
   return (
     <>
